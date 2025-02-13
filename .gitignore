@@ -1,0 +1,35 @@
+# Исключаем файлы конфигурации с токенами
+config.py
+
+# Исключаем виртуальное окружение
+venv/
+.env/
+*.venv
+
+# Файлы кэша и временные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Логи и отладочные файлы
+logs/
+debug.log
+
+# Системные файлы и артефакты IDE
+*.swp
+*.swo
+*.swn
+.vscode/
+.idea/
+*.iml
+
+# Файлы зависимостей (если используешь poetry)
+poetry.lock
+
+# Jupyter Notebook и IPython checkpoint (если вдруг понадобится)
+.ipynb_checkpoints/
+
+# Docker и CI/CD (если используешь)
+docker-compose.override.yml
